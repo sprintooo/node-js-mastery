@@ -1,10 +1,29 @@
-const http = require('http');
+console.log("Hello World 1");
 
-const server = http.createServer((req, res) => {
-    res.end('Hello World');
+setTimeout(() => {
+    console.log("Hello World 2");
+}, 0);
+
+setImmediate(() => {
+    console.log("Hello World 3");
 });
 
-server.listen(3000, () => {
-    console.log('Server is running on port 3000');
+process.nextTick(() => {
+    console.log("Hello world nextTick")
+    setTimeout(() => {
+        console.log("Hello World 4");
+    }, 0);
+    
+    setImmediate(() => {
+        console.log("Hello World 5");
+    });
 });
+
+
+
+
+
+
+
+
 

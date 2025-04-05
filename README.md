@@ -9,7 +9,7 @@ Welcome to my Node.js learning journey! This repository documents my progress as
 
 - [x] Basic Node.js setup and server creation
 - [ ] Understanding Node.js core modules
-- [ ] Working with npm and package management
+- [x] Working with npm and package management
 - [ ] Building RESTful APIs
 - [ ] Working with databases
 - [ ] Authentication and security
