@@ -1,0 +1,40 @@
+{
+    "users": [
+            {
+              "id": 1,
+              "name": "Amit Sharma",
+              "email": "amit.sharma@example.com",
+              "age": 25,
+              "isActive": true
+            },
+            {
+              "id": 2,
+              "name": "Priya Verma",
+              "email": "priya.verma@example.com",
+              "age": 30,
+              "isActive": false
+            },
+            {
+              "id": 3,
+              "name": "Rohan Mehta",
+              "email": "rohan.mehta@example.com",
+              "age": 28,
+              "isActive": true
+            },
+            {
+              "id": 4,
+              "name": "Sneha Patel",
+              "email": "sneha.patel@example.com",
+              "age": 22,
+              "isActive": true
+            },
+            {
+              "id": 5,
+              "name": "Vikram Joshi",
+              "email": "vikram.joshi@example.com",
+              "age": 35,
+              "isActive": false
+            }
+    ]
+          
+}

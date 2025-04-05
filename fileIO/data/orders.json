@@ -1,0 +1,53 @@
+{
+    "orders":[
+        {
+          "id": 101,
+          "userId": 1,
+          "product": "Smartphone",
+          "amount": 15000,
+          "status": "delivered",
+          "date": "2025-04-01"
+        },
+        {
+          "id": 102,
+          "userId": 2,
+          "product": "Laptop",
+          "amount": 55000,
+          "status": "shipped",
+          "date": "2025-03-28"
+        },
+        {
+          "id": 103,
+          "userId": 1,
+          "product": "Headphones",
+          "amount": 2500,
+          "status": "delivered",
+          "date": "2025-03-15"
+        },
+        {
+          "id": 104,
+          "userId": 3,
+          "product": "Monitor",
+          "amount": 12000,
+          "status": "cancelled",
+          "date": "2025-03-20"
+        },
+        {
+          "id": 105,
+          "userId": 4,
+          "product": "Keyboard",
+          "amount": 1500,
+          "status": "delivered",
+          "date": "2025-04-03"
+        },
+        {
+          "id": 106,
+          "userId": 5,
+          "product": "Tablet",
+          "amount": 18000,
+          "status": "processing",
+          "date": "2025-04-04"
+        }
+      ]
+      
+}
